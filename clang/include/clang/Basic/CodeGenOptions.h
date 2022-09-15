@@ -483,7 +483,7 @@ public:
   bool hasSanitizeCoverage() const {
     return SanitizeCoverageType || SanitizeCoverageIndirectCalls ||
            SanitizeCoverageTraceCmp || SanitizeCoverageTraceLoads ||
-           SanitizeCoverageTraceStores;
+           SanitizeCoverageTraceStores || SanitizeCoverageControlFlow;
   }
 };
 
